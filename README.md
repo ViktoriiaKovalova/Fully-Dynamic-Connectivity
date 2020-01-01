@@ -2,7 +2,7 @@
 Class DynamicGraph support queries in dynamic graph,
 which means that you can add, delete edges and answer queries,
 such as 'are two vertices connected?', 'how many components are
-in the graph right now?' in O(log n) time.
+in the graph right now?' in O(log^2 n) time.
 
 The interface is now as follows:
 
